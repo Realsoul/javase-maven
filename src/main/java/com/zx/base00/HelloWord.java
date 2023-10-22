@@ -1,4 +1,4 @@
-package com.zx;
+package com.zx.base00;
 
 public class HelloWord {
     public static void main(String[] args) {

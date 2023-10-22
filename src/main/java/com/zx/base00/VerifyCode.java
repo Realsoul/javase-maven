@@ -1,8 +1,8 @@
-package com.zx;
+package com.zx.base00;
 
 import java.util.Random;
 
-public class verifyCode {
+public class VerifyCode {
     /* 需求：
         定义方法实现随机产生一个5位数的验证码，格式：
         长度为5，前四位是大写字母或小写字母，最后一位是数字
