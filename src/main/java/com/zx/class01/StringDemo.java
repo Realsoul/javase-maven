@@ -1,13 +1,15 @@
 package com.zx.class01;
 
-import com.sun.org.apache.xpath.internal.operations.Equals;
-
 public class StringDemo {
     public static void main(String[] args) {
         //1. 字符串不可改变
         String zx="周旬";
         zx="void";//实际上重新生成了一个字符串然后赋值给zx
         System.out.println(zx);
+
+        //字符串的
+        // private final byte[] value;  （也无getvalue和SetValue）
+        //被final修饰表示地址不能改变，private修饰表示不能被外界访问。
 
         //2. 使用new创建出的是一个""
         String s = new String();
